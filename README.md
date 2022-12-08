@@ -19,6 +19,6 @@ Software: Python, Jupyter Notebook
   - I added a third layer with 2 neurons. I switch the activation function on the first layer to tanh.
 
 
-### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+### Summary
 
 Overall, the deep learning model was able to predict whether an applicant that receives funding from Alphabet Soup would be successful approximately 72% of the time. Depending on the standards that Alphabet Soup sets for itself, that may or may not be strong enough to make their decision. I would suggest using another machine learning model to compare to the neural network. A logistical regression model can analyze continous and cateforical variables and helps predict the probability of the input belonging to one of two groups. Since our data is continous and categorical, this model is promising. Also, Alphabet Soup can choose a predetermine cutoff to assign each sample into two groups, IS_SUCCESSFUL and IS_NOT_SUCCESSFUL.
